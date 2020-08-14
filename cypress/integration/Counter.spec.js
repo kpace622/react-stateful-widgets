@@ -5,6 +5,6 @@ context('Actions', () => {
 
   it('has the proper heading', () => {
     cy.get('.widget-counter h2')
-      .should('have.text', 'CounteR')
+      .should('have.text', 'CounteRf')
   })
 })
